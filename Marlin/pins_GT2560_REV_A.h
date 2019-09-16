@@ -43,7 +43,7 @@
 #define Y_MIN_PIN          26
 #define Y_MAX_PIN          28
 #define Z_MIN_PIN          30
-#define Z_MAX_PIN          32
+#define Z_MAX_PIN          -1//32
 
 //
 // Steppers
@@ -93,6 +93,7 @@
 #define LED_PIN            13
 #define PS_ON_PIN          12
 #define SUICIDE_PIN        54   // Must be enabled at startup to keep power flowing
+#define SERVO0_PIN         32
 #define KILL_PIN           -1
 
 #if ENABLED(ULTRA_LCD)
